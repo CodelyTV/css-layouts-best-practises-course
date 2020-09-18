@@ -4,10 +4,9 @@
 
 <style scoped>
 .btn {
-  width: 20rem;
-  height: 3rem;
+  min-width: 20rem;
   margin: 0;
-  padding: 0.5rem;
+  padding: 0.75rem 1rem;
   color: #fff;
   font-size: 1rem;
   font-size: 1.2rem;

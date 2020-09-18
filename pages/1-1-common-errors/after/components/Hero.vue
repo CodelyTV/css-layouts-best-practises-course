@@ -16,7 +16,7 @@
 .hero {
   max-width: var(--max-width);
   margin: 0 auto;
-  padding: 5rem 2rem 2rem;
+  padding: 0 2rem 2rem;
   color: #fff;
 }
 .hero-content {

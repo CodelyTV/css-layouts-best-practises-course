@@ -23,8 +23,8 @@
 
 <style scoped>
 .header {
-  position: fixed;
-  z-index: 9999;
+  position: sticky;
+  top: 0;
   width: 100%;
   background: var(--dark-color);
   box-shadow: 0 0 1rem var(--dark-color);
