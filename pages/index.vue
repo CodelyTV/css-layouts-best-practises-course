@@ -15,7 +15,7 @@
         <nuxt-link to="/2-2-responsive-grid">Responsive with Grid</nuxt-link>
       </li>
       <li>
-        <nuxt-link to="/3-2-grid-areas-order">Grid Areas and order</nuxt-link>
+        <nuxt-link to="/3-1-grid-areas-order">Grid Areas and order</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/4-1-modal-position">
