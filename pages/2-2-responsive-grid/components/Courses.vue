@@ -23,22 +23,10 @@
 .courses-title {
   font-size: 2rem;
 }
-@media (min-width: 40rem) {
-  .courses-collection {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-  }
-}
-@media (min-width: 60rem) {
-  .courses-collection {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-@media (min-width: 70rem) {
-  .courses-collection {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
+.courses-collection {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 1.5rem;
 }
 
 .fade-enter-active,
