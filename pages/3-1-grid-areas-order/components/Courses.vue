@@ -2,7 +2,7 @@
   <div class="block">
     <section class="courses">
       <h2 class="courses-title">👌 Cursos disponibles</h2>
-      <Filters />
+      <Filters class="courses-filters" />
       <div class="courses-collection">
         <Card v-for="course in courses" :key="course.title" :course="course" />
       </div>
@@ -16,17 +16,28 @@
 }
 
 .courses {
+  display: grid;
+  grid-template-areas:
+    'title   title   title   title'
+    'content content content sidebar'
+    'content content content sidebar';
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 4rem 1rem;
+  column-gap: 2rem;
 }
 .courses-title {
+  grid-area: title;
   font-size: 2rem;
 }
 .courses-collection {
   display: grid;
+  grid-area: content;
   grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   gap: 1.5rem;
+}
+.courses-filters {
+  grid-area: sidebar;
 }
 
 .fade-enter-active,

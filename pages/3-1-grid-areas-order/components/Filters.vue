@@ -13,26 +13,22 @@
 <style scoped>
 .filters {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  align-items: center;
   max-width: var(--max-width);
-  margin: 2rem auto;
 }
 
 .filters-tags {
   display: flex;
-  flex-grow: 1;
+  flex-direction: column;
+  order: 1;
   margin: 0 auto 0 -0.5rem;
   padding: 0.5rem;
-  overflow: auto;
-  column-gap: 0.2rem;
   list-style: none;
-  mask-image: linear-gradient(to left, transparent 1%, black 13%);
+  row-gap: 0.5rem;
 }
 
 .search {
-  flex-basis: 0;
-  flex-grow: 1;
   padding: 0.3rem 0.5rem;
   font-size: 1rem;
   border: 1px solid transparent;
