@@ -3,7 +3,7 @@
     <h1>CSS Layouts best practises course</h1>
     <ul>
       <li>
-        <nuxt-link to="/1-1-common-errors">Common errors</nuxt-link>
+        <nuxt-link to="/1-1-common-errors/after">Common errors</nuxt-link>
       </li>
       <li>
         <nuxt-link to="/2-1-responsive-flex">Responsive with Flex</nuxt-link>
