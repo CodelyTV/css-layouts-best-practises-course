@@ -23,7 +23,10 @@
 
 <style scoped>
 .header {
+  position: sticky;
+  top: 0;
   width: 100%;
+  margin: 2rem 0;
   background: var(--dark-color);
   box-shadow: 0 0 1rem var(--dark-color);
 }
