@@ -11,6 +11,9 @@
 
 <style scoped>
 .modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,6 +22,7 @@
   background: rgba(0, 0, 0, 0.7);
 }
 .modal {
+  position: relative;
   min-width: 85vw;
   max-height: 100vh;
   padding: 4rem 1vw;
@@ -27,6 +31,9 @@
   box-shadow: 0 0 1rem #000;
 }
 .modal-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
   margin: 0;
   padding: 0 1rem;
   font-size: 2rem;
