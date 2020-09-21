@@ -51,8 +51,17 @@
 .course-content {
   max-width: 90ch;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding-right: 10%;
   font-size: 1.2rem;
+}
+.course-content > *:not(img) {
+  margin-left: 10%;
+}
+.course-content img {
+  float: left;
+  max-width: 32%;
+  shape-outside: url('~assets/images/rico-sonriente-2273.png');
+  shape-margin: 1rem;
 }
 .course-content h3 {
   font-size: 1.7rem;
