@@ -34,9 +34,8 @@
   font-size: 2rem;
 }
 .courses-collection {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
   gap: 1.5rem;
+  column-width: 18rem;
 }
 
 .fade-enter-active,

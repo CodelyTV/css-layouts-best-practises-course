@@ -19,10 +19,12 @@
 <style scoped>
 .card {
   min-height: 10rem;
+  margin-bottom: 1.5rem;
   background: #fff;
   box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.05);
   cursor: pointer;
   transition: transform 0.3s, box-shadow 0.3s;
+  break-inside: avoid;
 }
 .card:hover,
 .card:focus {
