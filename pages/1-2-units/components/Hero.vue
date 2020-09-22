@@ -20,7 +20,8 @@
   color: #fff;
 }
 .hero-content {
-  max-width: 40rem;
+  max-width: 40ch;
+  font-size: 1.5rem;
 }
 .hero-content h1 {
   font-size: 2.7rem;
@@ -32,7 +33,6 @@
 }
 .hero-content p {
   margin-bottom: 3rem;
-  font-size: 1.5rem;
 }
 </style>
 

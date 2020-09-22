@@ -1,25 +1,31 @@
 <template>
-  <div>
+  <div class="container">
     <Header />
     <main>
       <Hero />
-      <Courses />
     </main>
     <Footer />
   </div>
 </template>
 
+<style scoped>
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+</style>
+
 <script>
 import Header from './components/Header'
 import Hero from './components/Hero'
-import Courses from './components/Courses'
 import Footer from '~/common/Footer'
 
 export default {
   components: {
     Header,
     Hero,
-    Courses,
     Footer,
   },
 }

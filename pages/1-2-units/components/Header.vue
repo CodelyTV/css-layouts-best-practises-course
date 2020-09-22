@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <nav class="nav">
-      <nuxt-link to="/">
+      <nuxt-link to="/" class="nav-logo-link">
         <img
           class="nav-logo"
           src="~/assets/images/logo-codelytv.png"
@@ -38,9 +38,13 @@
   margin: 0 auto;
   padding: 1rem;
 }
+.nav-logo-link {
+  width: 30%;
+  max-width: 15rem;
+}
 .nav-logo {
   display: block;
-  max-width: 15rem;
+  width: 100%;
   margin-top: 0.2rem;
   padding: 0.2rem;
 }
