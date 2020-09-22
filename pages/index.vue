@@ -6,6 +6,9 @@
         <nuxt-link to="/1-1-common-errors/after">Common errors</nuxt-link>
       </li>
       <li>
+        <nuxt-link to="/1-2-units">Units</nuxt-link>
+      </li>
+      <li>
         <nuxt-link to="/2-1-responsive-flex">Responsive with Flex</nuxt-link>
       </li>
       <li>
