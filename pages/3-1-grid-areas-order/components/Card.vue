@@ -6,7 +6,7 @@
     :aria-label="`Ver información del curso ${course.title}`"
     @click="$emit('click')"
   >
-    <img class="card-img" :src="`/cursos/${course.img}`" alt="" />
+    <img class="card-img" :src="`${baseUrl}cursos/${course.img}`" alt="" />
     <div class="card-info">
       <h3>{{ course.title }}</h3>
       <p class="card-lead">
@@ -37,6 +37,11 @@ export default {
       type: Object,
       required: true,
     },
+  },
+  data() {
+    return {
+      baseUrl: process.env.BASE_PATH || '/',
+    }
   },
 }
 </script>
