@@ -15,7 +15,7 @@
 html {
   font-size: 0.8rem;
 }
-@media (min-width: 32rem) {
+@media (min-width: 512px) {
   html {
     font-size: 1rem;
   }
