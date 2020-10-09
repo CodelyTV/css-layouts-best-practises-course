@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/4-2-menu-sticky", {data:[{}],fetch:[],mutations:void 0});

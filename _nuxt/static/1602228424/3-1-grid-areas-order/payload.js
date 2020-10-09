@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/3-1-grid-areas-order", {data:[{}],fetch:[],mutations:void 0});

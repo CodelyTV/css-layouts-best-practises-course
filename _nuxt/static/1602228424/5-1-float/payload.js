@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/5-1-float", {data:[{}],fetch:[],mutations:void 0});

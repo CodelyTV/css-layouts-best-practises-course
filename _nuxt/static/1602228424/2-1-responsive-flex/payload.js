@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/2-1-responsive-flex", {data:[{}],fetch:[],mutations:void 0});

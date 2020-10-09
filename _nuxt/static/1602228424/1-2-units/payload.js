@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/1-2-units", {data:[{}],fetch:[],mutations:void 0});
